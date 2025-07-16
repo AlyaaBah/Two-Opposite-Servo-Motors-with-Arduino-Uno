@@ -4,7 +4,7 @@ This project demonstrates how to control two servo motors using an Arduino Uno, 
 
 ---
 
-## 🧰 Components Required
+##  Components Required
 
 To build this project, you will need the following components:
 
@@ -17,7 +17,7 @@ To build this project, you will need the following components:
 
 ---
 
-## 🔌 Circuit Connections
+##  Circuit Connections
 
 Each servo motor has three pins: Signal, VCC, and GND. Connect them as follows:
 
@@ -26,11 +26,11 @@ Each servo motor has three pins: Signal, VCC, and GND. Connect them as follows:
 | Servo 1     | D4         | 5V  | GND |
 | Servo 2     | D5         | 5V  | GND |
 
-> ⚠️ **Important:** It's highly recommended to use an external 5V power source to avoid overloading the Arduino's onboard regulator. Make sure to connect the external power supply's GND to the Arduino's GND to ensure a common ground.
+>  **Important:** It's highly recommended to use an external 5V power source to avoid overloading the Arduino's onboard regulator. Make sure to connect the external power supply's GND to the Arduino's GND to ensure a common ground.
 
 ---
 
-## 🎯 Project Behavior
+##  Project Behavior
 
 Once powered and programmed, the two servo motors will perform a synchronized sweep:
 
@@ -47,7 +47,7 @@ This behavior is useful in applications like:
 
 ---
 
-## ▶️ How to Use
+##  How to Use
 
 1. Assemble the circuit as described above.
 2. Upload the Arduino sketch using the Arduino IDE.
@@ -56,7 +56,7 @@ This behavior is useful in applications like:
 
 ---
 
-## 📌 Notes
+##  Notes
 
 - Make sure your servo motors are not under heavy load, as this may cause instability or require higher current than the Arduino can safely provide.
 - If using high-torque servos, consider using a motor driver or dedicated servo controller.
